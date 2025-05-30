@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admission Form</title>
+</head>
+<body>
+
+  <h2>Admission Form</h2>
+
+  <form>
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" required> Male<br>
+    <input type="radio" id="female" name="gender" value="Female" required> Female<br>
+    <input type="radio" id="other" name="gender" value="Other" required> Other<br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30" required></textarea><br><br>
+
+    <label for="course">Select Course:</label><br>
+    <select id="course" name="course" required>
+      <option value="">--Select Course--</option>
+      <option value="btech">B.Tech</option>
+      <option value="bsc">B.Sc</option>
+      <option value="ba">B.A</option>
+      <option value="mba">MBA</option>
+    </select><br><br>
+
+    <label for="qualifications">Educational Qualifications:</label><br>
+    <input type="text" id="qualifications" name="qualifications" required><br><br>
+
+    <label for="document">Upload ID Proof / Photo:</label><br>
+    <input type="file" id="document" name="document" required><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+
+</body>
+</html>
